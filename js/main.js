@@ -139,19 +139,24 @@ createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
 
   const image = document.createElement('img');
+  image.tabIndex = '0';
   image.className = 'restaurant-img';
+  image.alt = DBHelper.imageAltForRestaurant(restaurant);
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
+  name.tabIndex = '0';
   name.innerHTML = restaurant.name;
   li.append(name);
 
   const neighborhood = document.createElement('p');
+  neighborhood.tabIndex = '0';
   neighborhood.innerHTML = restaurant.neighborhood;
   li.append(neighborhood);
 
   const address = document.createElement('p');
+  address.tabIndex = '0';
   address.innerHTML = restaurant.address;
   li.append(address);
 
