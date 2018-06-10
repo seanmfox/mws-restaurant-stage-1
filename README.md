@@ -1,4 +1,4 @@
-#### Restaurant Reviews
+# Restaurant Reviews
 
 Get reviews on your favorite restraunts in NYC!
 
