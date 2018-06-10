@@ -342,14 +342,14 @@ nav h1 a {
   
   #breadcrumb {
     padding: 10px 40px 16px;
-    width: calc(50% - 80px);
+    width: calc(40% - 80px);
   }
 
   .inside #map-container {
     height: 87%;
     position: fixed;
     top: 80px;
-    width: 50%;
+    width: 60%;
   }
   
   #restaurant-img {
@@ -362,7 +362,7 @@ nav h1 a {
 
   #restaurant-container, #reviews-container {
     padding: 140px 0px 30px;
-    width: 50%;
+    width: 40%;
     margin: 0;
   }
   
